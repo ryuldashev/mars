@@ -24239,7 +24239,7 @@ img + h4 {
     top: 0;
     left: 0;
     z-index: 2;
-    opacity: .8;
+    opacity: .6;
     pointer-events: none;
   }
 }
