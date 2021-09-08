@@ -356,6 +356,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-responsive:last-child {
+  margin-left: 100px;
+}
 
 .img-rounded {
   border-radius: 6px;
@@ -24192,7 +24195,7 @@ img + h4 {
 }
 
 .bg-image-3 {
-  background-image: url(../images/home-11.jpg);
+  background-image: url(../images/Mars_img.jpg);
 }
 
 .bg-image-4 {
@@ -30970,6 +30973,7 @@ ul ul, ul ol, ol ul, ol ol {
   z-index: 6;
   position: relative;
   color: #333;
+
 }
 
 .rd-google-map__model {
