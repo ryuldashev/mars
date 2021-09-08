@@ -23730,7 +23730,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   -webkit-text-size-adjust: none;
-  color: red;
+  color: darkred;
   background-color: #fff;
 }
 
@@ -29881,7 +29881,7 @@ img.mfp-img {
   height: 56px;
   color: #333333;
   text-align: center;
-  background: rgba(0, 39, 68, 0.8);
+  background: rgba(255, 255, 255, 0.2);
   z-index: 1501;
 }
 
