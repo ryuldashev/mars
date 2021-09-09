@@ -11388,9 +11388,9 @@ fieldset[disabled] .btn-white {
   content: "\f099";
 }
 
-.fa-facebook-f:before,
 .fa-facebook:before {
-  content: "\f09a";
+  content: '\f09a';
+  
 }
 
 .fa-github:before {
@@ -24184,7 +24184,7 @@ img + h4 {
 }
 
 .bg-image-2 {
-  background-image: url(../images/home-06.jpg);
+  background-image: url(../images/mars-company.png);
 }
 
 @media (max-width: 1199px) {
