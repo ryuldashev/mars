@@ -78,7 +78,9 @@ input {
 textarea {
   overflow: auto;
 }
-
+i {
+  font-size: 25px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -989,13 +991,6 @@ ul {
   font-style: normal;
 }
 
-/* makes the font 33% larger relative to the icon container */
-
-/* Deprecated as of 4.4.0 */
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-
 .fa-twitter:before {
   content: "\f099";
 }
@@ -1009,11 +1004,6 @@ ul {
   content: "\f0d5";
 }
 
-[class*='fa-']:before {
-  font-weight: 400;
-  font-family: 'FontAwesome';
-}
-
 @font-face {
   font-family: "Material Design Icons";
   src: url("../fonts/materialdesignicons-webfont.eot?v=1.4.57");
@@ -1022,15 +1012,12 @@ ul {
   font-style: normal;
 }
 
-/*# sourceMappingURL=materialdesignicons.css.map */
-
 .section-50 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .section-55 {
-  padding-top: 55px;
   padding-bottom: 55px;
 }
 
@@ -1051,7 +1038,6 @@ ul {
 @media (min-width: 1200px) {
   .section-lg-80 {
     padding-top: 80px;
-    padding-bottom: 80px;
   }
   .section-lg-140 {
     padding-top: 140px;
@@ -1062,10 +1048,8 @@ ul {
 @media (min-width: 1800px) {
   .section-xl-100 {
     padding-top: 100px;
-    padding-bottom: 100px;
   }
   .section-xl-120 {
-    padding-top: 120px;
     padding-bottom: 120px;
   }
   .section-xl-240 {
@@ -1767,6 +1751,335 @@ img + h4 {
   transform: translateY(5px);
 }
 
+/*
+ * Custom Plugins
+ */
+/**
+* @subsection   Animate.css
+*
+* @description  A bunch of cool, fun, and cross-browser animations
+*               for you to use.
+*
+* @author       Daniel Eden
+* @link         https://daneden.me/animate
+* @license      MIT license - https://opensource.org/licenses/MIT
+*/
+
+/**
+* Bounce Keyframes Animation
+*/
+
+/**
+* Flas Keyframes Animation
+*/
+
+/**
+* Pulse Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* RubberBand Keyframes Animation
+*/
+
+/**
+* Shake Keyframes Animation
+*/
+
+/**
+* Swing Keyframes Animation
+*/
+
+/**
+* Tada Keyframes Animation
+*/
+
+/**
+* Wobble Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* BounceIn Keyframes Animation
+*/
+
+/**
+* BounceInDown Keyframes Animation
+*/
+
+/**
+* BounceInLeft Keyframes Animation
+*/
+
+/**
+* BounceInRight Keyframes Animation
+*/
+
+/**
+* BounceInUp Keyframes Animation
+*/
+
+/**
+* BounceOut Keyframes Animation
+*/
+
+/**
+* BounceOutDown Keyframes Animation
+*/
+
+/**
+* BounceOutLeft Keyframes Animation
+*/
+
+/**
+* BounceOutRight Keyframes Animation
+*/
+
+/**
+* BounceOutUp Keyframes Animation
+*/
+
+/**
+* FadeIn Keyframes Animation
+*/
+
+/**
+* FadeInDown Keyframes Animation
+*/
+
+/**
+* FadeInDownBig Keyframes Animation
+*/
+
+/**
+* FadeInLeft Keyframes Animation
+*/
+
+/**
+* FadeInLeftBig Keyframes Animation
+*/
+
+/**
+* FadeInRight Keyframes Animation
+*/
+
+/**
+* FadeInRightBig Keyframes Animation
+*/
+
+/**
+* FadeInUp Keyframes Animation
+*/
+
+/**
+* FadeInUpBig Keyframes Animation
+*/
+
+/**
+* FadeOut Keyframes Animation
+*/
+
+/**
+* FadeOutDown Keyframes Animation
+*/
+
+/**
+* FadeOutDownBig Keyframes Animation
+*/
+
+/**
+* FadeOutLeft Keyframes Animation
+*/
+
+/**
+* FadeOutLeftBig Keyframes Animation
+*/
+
+/**
+* FadeOutRight Keyframes Animation
+*/
+
+/**
+* FadeOutRightBig Keyframes Animation
+*/
+
+/**
+* FadeOutUp Keyframes Animation
+*/
+
+/**
+* FadeOutUpBig Keyframes Animation
+*/
+
+/**
+* Flip Keyframes Animation
+*/
+
+/**
+* FlipInX Keyframes Animation
+*/
+
+/**
+* FlipInY Keyframes Animation
+*/
+
+/**
+* FlipOutX Keyframes Animation
+*/
+
+/**
+* FlipOutY Keyframes Animation
+*/
+
+/**
+* LightSpeedIn Keyframes Animation
+*/
+
+/**
+* LightSpeedOut Keyframes Animation
+*/
+
+/**
+* RotateIn Keyframes Animation
+*/
+
+/**
+* RotateInDownLeft Keyframes Animation
+*/
+
+/**
+* RotateInDownRight Keyframes Animation
+*/
+
+/**
+* RotateInUpLeft Keyframes Animation
+*/
+
+/**
+* RotateInUpRight Keyframes Animation
+*/
+
+/**
+* RotateOut Keyframes Animation
+*/
+
+/**
+* RotateOutDownLeft Keyframes Animation
+*/
+
+/**
+* RotateOutDownRight Keyframes Animation
+*/
+
+/**
+* RotateOutUpLeft Keyframes Animation
+*/
+
+/**
+* RotateOutUpRight Keyframes Animation
+*/
+
+/**
+* Hinge Keyframes Animation
+*/
+
+/**
+* RollIn Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* RollOut Keyframes Animation
+*
+* @author Nick Pettit
+* @link https://github.com/nickpettit/glide
+*/
+
+/**
+* ZoomIn Keyframes Animation
+*/
+
+/**
+* ZoomInDown Keyframes Animation
+*/
+
+/**
+* ZoomInLeft Keyframes Animation
+*/
+
+/**
+* ZoomInRight Keyframes Animation
+*/
+
+/**
+* ZoomInUp Keyframes Animation
+*/
+
+/**
+* ZoomOut Keyframes Animation
+*/
+
+/**
+* ZoomOutDown Keyframes Animation
+*/
+
+/**
+* ZoomOutLeft Keyframes Animation
+*/
+
+/**
+* ZoomOutRight Keyframes Animation
+*/
+
+/**
+* ZoomOutUp Keyframes Animation
+*/
+
+/**
+* SlideInDown Keyframes Animation
+*/
+
+/**
+* SlideInLeft Keyframes Animation
+*/
+
+/**
+* SlideInRight Keyframes Animation
+*/
+
+/**
+* SlideInUp Keyframes Animation
+*/
+
+/**
+* SlideOutDown Keyframes Animation
+*/
+
+/**
+* SlideOutLeft Keyframes Animation
+*/
+
+/**
+* SlideOutRight Keyframes Animation
+*/
+
+/**
+* SlideOutUp Keyframes Animation
+*/
+
+/*
+* @subsection   Isotope
+*/
+
+/*
+* @subsection   Magnific Popup
+*/
 
 button::-moz-focus-inner {
   padding: 0;
@@ -2282,37 +2595,10 @@ div[class^="rd-mailform-validate"]:before {
   transform: translateY(-50%);
 }
 
-/**
- * RD Select Menu
- * @Section
- */
+
 
 ul {
   list-style: none;
 }
 
-/**
- * RD Timepicker
- * @Section
- */
 
-/**
- * RD Toggles
- * @Section
- */
-/* Slider */
-
-
-/* sliderEnd */
-
-/**
- * RD Validator
- * @Section
- */
-
-/*# sourceMappingURL=style.css.map */
-.slider {
-  width: 800px;
-  height: 600px;
-  margin: 20px;
-}
