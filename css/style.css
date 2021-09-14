@@ -191,6 +191,26 @@ img {
 .img-responsive:last-child {
   margin-left: 100px;
 }
+@media(max-width:990px) {
+  .img-responsive:last-child {
+    margin: auto;
+  }
+  .count:before {
+    display: none;
+  }
+}
+@media(max-width:500px) {
+  .galery img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media(max-width:400px) {
+  .gallery img {
+    width: 200px;
+    height: 200px;
+  }
+}
 
 h1,
 h2,
@@ -2124,4 +2144,7 @@ ul {
 .gallery img:hover {
   filter: grayscale(100%);
   transform: scale(1.1);
+}
+.list-inline .list-inline-sm {
+  font-size: 25px;
 }
